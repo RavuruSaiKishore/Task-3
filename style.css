@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* .heading{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+.heading h2{
+    font-size: 30px;
+    color: tomato;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    width: 80vw; 
+    height: 80vw;
+    max-width: 400px; 
+    max-height: 400px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.drum {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    max-width: 100px; 
+    max-height: 100px;
+    border-radius: 50%;
+    background-color: #444;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.drum:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.drum:nth-child(2) {
+    top: 25%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.drum:nth-child(3) {
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.drum:nth-child(4) {
+    top: 85%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+.drum:nth-child(5) {
+    top: 25%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.drum:hover {
+    transform: scale(1.2) translate(-50%, -50%);
+}
+
+.drum img {
+    width: 15vw;
+    height: 15vw;
+    max-width: 100px; 
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .circle {
+        width: 90vw; 
+        height: 90vw;
+    }
+
+    .drum {
+        width: 18vw; 
+        height: 18vw;
+    }
+
+    .drum img{
+        width: 18vw; 
+        height: 18vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .circle {
+        width: 95vw; 
+        height: 95vw;
+    }
+
+    .drum {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .drum img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+   
+}
